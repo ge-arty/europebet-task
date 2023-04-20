@@ -1,0 +1,84 @@
+.popup-container {
+  width: 100%;
+  max-width: 94rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: 13px;
+  position: relative;
+  background-color: #1c1d1e;
+  padding-bottom: 10rem;
+}
+.start-game-container {
+  width: 100%;
+  max-width: 94rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1c1d1e;
+  position: fixed;
+  bottom: 0;
+}
+.start-game-container div {
+  width: 100%;
+  background-color: #f05a22;
+  height: 0.5rem;
+}
+.start-game-container button {
+  background-color: #f05a22;
+  border: none;
+  border-radius: 5px;
+  width: 14.4rem;
+  height: 3.6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.8rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fixed-menu_box {
+  position: fixed;
+  width: 100%;
+  max-width: 94rem;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fixed-menu_text {
+  display: flex;
+  column-gap: 1.2rem;
+  align-items: center;
+  max-width: 28rem;
+  width: 100%;
+  background-color: #25292b;
+  border-radius: 35px;
+  height: 3.4rem;
+  color: #fff;
+}
+.fixed-menu_text h6 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: rgba(225, 225, 225, 0.15);
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.fixed-menu_text span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.close-button {
+  width: 3.4rem;
+  height: 3.4rem;
+  background-color: #25292b;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 2rem;
+  cursor: pointer;
+}

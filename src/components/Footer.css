@@ -1,0 +1,82 @@
+.footer-container {
+  width: 100%;
+}
+.rules-section {
+  width: 100%;
+}
+.rules-section h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+  padding: 0 4.3rem;
+}
+.rules-box {
+  width: 100%;
+}
+.rule {
+  width: 100%;
+  max-width: 85.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.1rem 2.6rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #25292b;
+}
+.rule p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.promotions-section {
+  width: 100%;
+}
+.promotions-section h2 {
+  margin-top: 4.4rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+  padding: 0 4.3rem;
+}
+
+.promotion-pictures {
+  width: 100%;
+  max-width: 85.2rem;
+  overflow-x: scroll; /* Set horizontal scroll */
+  white-space: nowrap; /* Prevent elements from wrapping */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.promotion-pic {
+  width: 100%;
+  max-width: 23.2rem;
+  height: 27.2rem;
+  flex-shrink: 0; /* Prevent elements from shrinking */
+  margin-right: 1.6rem;
+  object-fit: cover; /* Scale images to cover the container without losing aspect ratio */
+  border-radius: 5px;
+}
+
+.promotion-pic:last-child {
+  margin-right: 0; /* Remove space after last element */
+}
+
+.promotion-pictures::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+}
+
+.promotion-pictures::-webkit-scrollbar-thumb {
+  background-color: #f05a22;
+  border-radius: 4px;
+}
+
+.promotion-pictures::-webkit-scrollbar-track {
+  background-color: #7d7d7d;
+}
