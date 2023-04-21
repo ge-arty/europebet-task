@@ -1,5 +1,4 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
 import Start from "./components/Start";
 import Popup from "./components/Popup";
 import { useState } from "react";

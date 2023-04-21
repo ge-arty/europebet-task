@@ -11,7 +11,7 @@
 }
 
 .header-title {
-  padding: 2.4rem 4.3rem 3.2rem 2.4rem;
+  padding: 2.4rem 4.3rem 3.2rem 4.3rem;
 }
 .header-title h2 {
   color: #ffffff;
@@ -21,4 +21,44 @@
   color: #fff;
   font-size: 1.6rem;
   margin-top: 1.4rem;
+}
+.header-navigation {
+  width: 100%;
+  max-width: 85.4rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3234;
+  border-radius: 12px;
+}
+.header-navigation-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  padding: 2.5rem 8.4rem;
+  border-radius: 12px;
+}
+.header-navigation-elem p {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+.header-navigation-elem h6 {
+  font-size: 1.6rem;
+  margin-top: 0.2rem;
+}
+
+.active {
+  background-color: #ef5a21;
+  padding: 2.5rem 8.4rem;
+  transform: scale(1.1, 1.1);
+}
+.active p {
+  font-size: 1.4rem;
+}
+.active h6 {
+  font-size: 1.8rem;
 }

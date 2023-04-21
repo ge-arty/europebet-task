@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-.fixed-menu_box {
+.fixed-menu-box {
   position: fixed;
   width: 100%;
   max-width: 94rem;
@@ -46,7 +46,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.fixed-menu_text {
+.fixed-menu-text {
   display: flex;
   column-gap: 1.2rem;
   align-items: center;
@@ -57,7 +57,7 @@
   height: 3.4rem;
   color: #fff;
 }
-.fixed-menu_text h6 {
+.fixed-menu-text h6 {
   font-size: 1.3rem;
   font-weight: 400;
   background-color: rgba(225, 225, 225, 0.15);
@@ -69,7 +69,7 @@
   align-items: center;
   margin-left: 0.5rem;
 }
-.fixed-menu_text span {
+.fixed-menu-text span {
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -79,6 +79,7 @@
   background-color: #25292b;
   border-radius: 50%;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
+  border: none;
 }
