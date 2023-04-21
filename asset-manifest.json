@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/europebet-task/static/css/main.a0690202.css",
-    "main.js": "/europebet-task/static/js/main.06b8d2e7.js",
+    "main.css": "/europebet-task/static/css/main.070ca919.css",
+    "main.js": "/europebet-task/static/js/main.7f2377ae.js",
     "static/media/banner.jpg": "/europebet-task/static/media/banner.0161f0cbc2a080e249b4.jpg",
     "static/media/Rounded Rectangle 595-1.png": "/europebet-task/static/media/Rounded Rectangle 595-1.b9cc6669d9a199ad8e25.png",
     "static/media/Rounded Rectangle 595-2.png": "/europebet-task/static/media/Rounded Rectangle 595-2.a9bc748ab620a0fb6f55.png",
     "static/media/Rounded Rectangle 595.png": "/europebet-task/static/media/Rounded Rectangle 595.26f76cba0a120e0e5ac6.png",
     "index.html": "/europebet-task/index.html",
-    "main.a0690202.css.map": "/europebet-task/static/css/main.a0690202.css.map",
-    "main.06b8d2e7.js.map": "/europebet-task/static/js/main.06b8d2e7.js.map"
+    "main.070ca919.css.map": "/europebet-task/static/css/main.070ca919.css.map",
+    "main.7f2377ae.js.map": "/europebet-task/static/js/main.7f2377ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0690202.css",
-    "static/js/main.06b8d2e7.js"
+    "static/css/main.070ca919.css",
+    "static/js/main.7f2377ae.js"
   ]
 }
