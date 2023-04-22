@@ -7,7 +7,11 @@ function App() {
   const [started, setStarted] = useState(false);
   return (
     <div className="app">
-      {started ? <Popup /> : <Start setStarted={() => setStarted(true)} />}
+      {started ? (
+        <Popup close={() => setStarted(false)} />
+      ) : (
+        <Start setStarted={() => setStarted(true)} />
+      )}
     </div>
   );
 }

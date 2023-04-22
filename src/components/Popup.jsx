@@ -7,7 +7,7 @@ import CashGames from "./CashGames";
 import FinalStage from "./FinalStage";
 import SpringGames from "./SpringGames";
 
-export default function Popup() {
+export default function Popup(props) {
   return (
     <div className="popup-container">
       <div className="fixed-menu-box">
@@ -15,7 +15,9 @@ export default function Popup() {
           <h6>სლოტები</h6>
           <span>10 იანვარი - 12 მარტი</span>
         </div>
-        <button className="close-button">X</button>
+        <button onClick={() => props.close()} className="close-button">
+          X
+        </button>
       </div>
       <Header />
       <Routes>
