@@ -21,9 +21,9 @@ export default function Popup(props) {
       </div>
       <Header />
       <Routes>
-        <Route path="/" element={<CashGames />} />
-        <Route path="/SpringSeries" element={<SpringGames />} />
-        <Route path="/FinalStage" element={<FinalStage />} />
+        <Route path="/europebet-task" element={<CashGames />} />
+        <Route path="/europebet-task/SpringSeries" element={<SpringGames />} />
+        <Route path="/europebet-task/FinalStage" element={<FinalStage />} />
       </Routes>
       <Footer />
       <div className="start-game-container">
