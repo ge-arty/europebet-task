@@ -10,21 +10,25 @@ export default function Header() {
         <p>მოხვდი პოკერის ფესტივალზე მალტაში</p>
       </div>
       <nav className="header-navigation">
-        <NavLink className="header-navigation-elem" to={"/europebet-task/"}>
+        <NavLink
+          className="header-navigation-elem"
+          exact
+          to={"/"}
+          isActive={(match, location) => {
+            if (location.pathname === "/" || location.pathname === "/my-app") {
+              return true;
+            }
+            return false;
+          }}
+        >
           <p>1 - 29 აპრილი</p>
           <h6>Cash Games</h6>
         </NavLink>
-        <NavLink
-          className="header-navigation-elem"
-          to={"/europebet-task/SpringSeries"}
-        >
+        <NavLink className="header-navigation-elem" to={"/SpringSeries"}>
           <p>13 - 29 აპრილი</p>
           <h6>Spring Series</h6>
         </NavLink>
-        <NavLink
-          className="header-navigation-elem"
-          to={"/europebet-task/FinalStage"}
-        >
+        <NavLink className="header-navigation-elem" to={"/FinalStage"}>
           <p>30 აპრილი</p>
           <h6>Final Stage</h6>
         </NavLink>
