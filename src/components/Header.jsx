@@ -10,15 +10,21 @@ export default function Header() {
         <p>მოხვდი პოკერის ფესტივალზე მალტაში</p>
       </div>
       <nav className="header-navigation">
-        <NavLink className="header-navigation-elem" to={"/"}>
+        <NavLink className="header-navigation-elem" to={"/europebet-task/"}>
           <p>1 - 29 აპრილი</p>
           <h6>Cash Games</h6>
         </NavLink>
-        <NavLink className="header-navigation-elem" to={"/SpringSeries"}>
+        <NavLink
+          className="header-navigation-elem"
+          to={"/europebet-task/SpringSeries"}
+        >
           <p>13 - 29 აპრილი</p>
           <h6>Spring Series</h6>
         </NavLink>
-        <NavLink className="header-navigation-elem" to={"/FinalStage"}>
+        <NavLink
+          className="header-navigation-elem"
+          to={"/europebet-task/FinalStage"}
+        >
           <p>30 აპრილი</p>
           <h6>Final Stage</h6>
         </NavLink>
