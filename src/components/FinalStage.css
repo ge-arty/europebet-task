@@ -1,0 +1,61 @@
+.finalstage-container {
+  width: 100%;
+  max-width: 85.4rem;
+  margin: 3rem auto;
+  border-radius: 16px;
+  border: 4px solid #25292b;
+  padding: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.finalstage-header {
+  width: 100%;
+}
+.finalstage-header-banner {
+  background: url("../assets/last-page-banner.png") center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 28rem;
+  border-radius: 16px;
+  margin-bottom: 1.6rem;
+}
+.finalstage-header-title {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.finalstage-header-text {
+  width: 100%;
+  max-width: 66.4rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+.finalstage-header-date-box {
+  width: 100%;
+  background-color: #2c3234;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+.finalstage-header-date-box div {
+  width: 0.4rem;
+  background-color: #ef5a21;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 10px #ef5a21;
+  height: 4rem;
+}
+.finalstage-header-date-box p {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 2rem 0;
+  margin-left: 2rem;
+}
