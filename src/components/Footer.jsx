@@ -41,10 +41,26 @@ export default function Footer() {
       <section className="promotions-section">
         <h2>მსგავსი აქციები</h2>
         <div className="promotion-pictures">
-          <img className="promotion-pic" src={promo1} alt="promo-pic" />
-          <img className="promotion-pic" src={promo2} alt="promo-pic" />
-          <img className="promotion-pic" src={promo3} alt="promo-pic" />
-          <img className="promotion-pic" src={promo4} alt="promo-pic" />
+          <div className="promotion-picture-box1">
+            <img className="promotion-pic" src={promo1} alt="promo-pic" />
+            <h3>Get 300% Cashback</h3>
+            <p>retrieve 300% bet amount as real money only here</p>
+          </div>
+          <div className="promotion-picture-box2">
+            <img className="promotion-pic" src={promo2} alt="promo-pic" />
+            <h3>Get 300% Cashback</h3>
+            <p>retrieve 300% bet amount as real money only here</p>
+          </div>
+          <div className="promotion-picture-box3">
+            <img className="promotion-pic" src={promo3} alt="promo-pic" />
+            <h3>Get 300% Cashback</h3>
+            <p>retrieve 300% bet amount as real money only here</p>
+          </div>
+          <div className="promotion-picture-box4">
+            <img className="promotion-pic" src={promo4} alt="promo-pic" />
+            <h3>Get 300% Cashback</h3>
+            <p>retrieve 300% bet amount as real money only here</p>
+          </div>
         </div>
       </section>
     </div>

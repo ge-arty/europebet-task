@@ -3,7 +3,7 @@ import "./SpringGames.css";
 import cardBannerLeft from "../assets/promo-left-img.png";
 import cardBannerRight from "../assets/promo-right-img.png";
 import clockIcon from "../assets/clock-with-white-face.png";
-import exampleIcon from "../assets/example-icon.png";
+import mechanicIcon from "../assets/mechanic-icon.png";
 import voucherIcon from "../assets/voucher-pic.png";
 import travelIcon from "../assets/travel-icon-sm.png";
 import ticketIcon from "../assets/ticket-icon-sm.png";
@@ -53,7 +53,7 @@ export default function SpringGames() {
           </div>
           <div className="springames-top">
             <h4 className="springames-subtitle">ქულების დაგროვების მექანიკა</h4>
-            <img src={exampleIcon} alt="icon" />
+            <img src={mechanicIcon} alt="icon" />
           </div>
           <div className="springames-list-container">
             <div className="springames-list-params">

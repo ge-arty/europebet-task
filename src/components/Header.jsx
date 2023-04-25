@@ -1,7 +1,9 @@
 import React from "react";
 import "./Header.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+
 export default function Header() {
+  const location = useLocation();
   return (
     <div className="header-container">
       <div className="header-banner"></div>
@@ -11,15 +13,13 @@ export default function Header() {
       </div>
       <nav className="header-navigation">
         <NavLink
-          className="header-navigation-elem"
-          exact
-          to={"/"}
-          isActive={(match, location) => {
-            if (location.pathname === "/" || location.pathname === "/my-app") {
-              return true;
-            }
-            return false;
-          }}
+          className={
+            location.pathname === "/" || location.pathname === "/my-app"
+              ? "header-navigation-elem active"
+              : "header-navigation-elem"
+          }
+          to="/"
+          exact="true"
         >
           <p>1 - 29 აპრილი</p>
           <h6>Cash Games</h6>

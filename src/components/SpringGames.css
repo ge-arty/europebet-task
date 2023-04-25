@@ -135,11 +135,20 @@
   justify-content: center;
   align-items: center;
   padding: 2.3rem 27.3rem;
+  position: relative;
+}
+.springames-top img {
+  position: absolute;
+  right: 35%;
 }
 .springames-subtitle {
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin-right: 1.2rem;
+  background-color: #232729;
+  padding: 1rem 5rem 1rem 2rem;
+  border-radius: 16px;
+  border: 2px solid #2c3234;
 }
 .springames-list-container {
   width: 100%;
