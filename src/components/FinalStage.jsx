@@ -161,11 +161,11 @@ export default function FinalStage() {
             </div>
           </div>
         </div>
-        <p>
+        <p className="finalstage-travel-bottom-text">
           * თუ მოთამაშე მოიგებს ბეჭედს ორჯერ ან მეტჯერ, ის The Lord of the Rings
           ტურნირზემოხვდება ბეჭდების შესაბამისი რაოდენობის სტეკით
         </p>
-        <p>
+        <p className="finalstage-travel-bottom-text">
           *ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾-იანი
           ბაი-ინის გადახდით.
         </p>
