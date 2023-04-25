@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/europebet-task/static/css/main.953ef293.css",
-    "main.js": "/europebet-task/static/js/main.b3a024b9.js",
+    "main.css": "/europebet-task/static/css/main.3263d47e.css",
+    "main.js": "/europebet-task/static/js/main.63eab713.js",
     "static/media/last-page-banner.png": "/europebet-task/static/media/last-page-banner.af2df7c6f0f33378394d.png",
     "static/media/banner.jpg": "/europebet-task/static/media/banner.0161f0cbc2a080e249b4.jpg",
     "static/media/Rounded Rectangle 595-1.png": "/europebet-task/static/media/Rounded Rectangle 595-1.b9cc6669d9a199ad8e25.png",
@@ -12,11 +12,11 @@
     "static/media/promo-right-img.png": "/europebet-task/static/media/promo-right-img.b1376ba44e821f0f6829.png",
     "static/media/tournament-bg2.png": "/europebet-task/static/media/tournament-bg2.d612359ab18d2f7258a2.png",
     "index.html": "/europebet-task/index.html",
-    "main.953ef293.css.map": "/europebet-task/static/css/main.953ef293.css.map",
-    "main.b3a024b9.js.map": "/europebet-task/static/js/main.b3a024b9.js.map"
+    "main.3263d47e.css.map": "/europebet-task/static/css/main.3263d47e.css.map",
+    "main.63eab713.js.map": "/europebet-task/static/js/main.63eab713.js.map"
   },
   "entrypoints": [
-    "static/css/main.953ef293.css",
-    "static/js/main.b3a024b9.js"
+    "static/css/main.3263d47e.css",
+    "static/js/main.63eab713.js"
   ]
 }
