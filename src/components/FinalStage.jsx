@@ -5,7 +5,8 @@ import finalHotelIcon from "../assets/final-item-hotel-icon.png";
 import finalMoneyIcon from "../assets/final-item-money-icon.png";
 import finalTicketIcon from "../assets/final-item-ticket-icon.png";
 import finalPlaneIcon from "../assets/poker-item-1-ticket-icon.png";
-import finalDoublePlaceIcon from "../assets/poker-item-2-ticket-icon.png";
+import finalDoublePlaneIcon from "../assets/poker-item-2-ticket-icon.png";
+import misteryKeyIcon from "../assets/mistery-key-icon.png";
 
 export default function FinalStage() {
   return (
@@ -147,7 +148,7 @@ export default function FinalStage() {
                 ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾
                 ბაი-ინის გადახდით.
               </p>
-              <img src={finalDoublePlaceIcon} alt="double-plane-icon" />
+              <img src={finalDoublePlaneIcon} alt="plane-icon" />
             </div>
             <div>
               <h3>„The Festival in Malta, GTD“</h3>
@@ -157,7 +158,7 @@ export default function FinalStage() {
                 ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾
                 ბაი-ინის გადახდით.
               </p>
-              <img src={finalDoublePlaceIcon} alt="double-plane-icon" />
+              <img src={finalPlaneIcon} alt="double-plane-icon" />
             </div>
           </div>
         </div>
@@ -171,7 +172,80 @@ export default function FinalStage() {
         </p>
       </div>
 
-      <div className="finalstage-mistery-key-container"></div>
+      <div className="finalstage-mistery-key-container">
+        <div className="mistery-key-header">
+          <div></div>
+          <img src={misteryKeyIcon} alt="mistery-key-icon" />
+        </div>
+        <div className="mistery-key-list-container">
+          <p className="mistery-key-text">
+            მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში
+            მიიღებენ საიდუმლო გასაღებს
+          </p>
+          <ul>
+            <li>
+              <span className="mistery-key-list-number">1</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Cashgame Sharks II ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">2</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Cashgame Sharks II ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">3</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Tournament Sharks II ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">4</span>
+              <p className="mistery-key-list-text">
+                სპეც. ტურნირი Tournament Sharks III ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">5</span>
+              <p className="mistery-key-list-text">
+                Holdem Grinders ლიდერბორდის გამარჯვებული
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">6</span>
+              <p className="mistery-key-list-text">
+                ქეშგეიმ დაბალი ლიმიტების ლიდერბორდების გამარჯვებულები
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">7</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Cashgame Sharks II ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">8</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Cashgame Sharks II ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">9</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Cashgame Sharks II ადგილი
+              </p>
+            </li>
+            <li>
+              <span className="mistery-key-list-number">10</span>
+              <p className="mistery-key-list-text">
+                სპეციალური ტურნირი Cashgame Sharks II ადგილი
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
