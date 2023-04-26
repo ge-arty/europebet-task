@@ -116,13 +116,13 @@
 }
 
 @media (max-width: 800px) {
-  .popup-container {
-    /* padding: 0 2rem; */
-  }
   .mobile-menu {
     display: flex;
   }
   .fixed-menu-box {
     display: none;
+  }
+  .start-game-container {
+    position: fixed;
   }
 }
