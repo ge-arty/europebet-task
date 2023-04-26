@@ -6,6 +6,7 @@
   border-radius: 13px;
   position: relative;
   background-color: #1c1d1e;
+  box-shadow: 0px 0px 15px rgb(148, 146, 146);
 }
 .start-game-container {
   width: 100%;
