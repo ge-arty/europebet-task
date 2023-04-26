@@ -2,13 +2,15 @@ import React from "react";
 import "./SpringGames.css";
 import cardBannerLeft from "../assets/promo-left-img.png";
 import cardBannerRight from "../assets/promo-right-img.png";
+import cardBannerLeftSm from "../assets/promo-left-img-m.png";
+import cardBannerRightSm from "../assets/promo-right-img-m.png";
 import clockIcon from "../assets/clock-with-white-face.png";
 import mechanicIcon from "../assets/mechanic-icon.png";
 import voucherIcon from "../assets/voucher-pic.png";
 import travelIcon from "../assets/travel-icon-sm.png";
 import ticketIcon from "../assets/ticket-icon-sm.png";
 
-export default function SpringGames() {
+export default function SpringGames(props) {
   return (
     <div className="springames-container">
       <section className="springames">
@@ -26,21 +28,26 @@ export default function SpringGames() {
             </div>
             <span>19:00 / 19:30 / 20:00</span>
           </div>
-          <p className="tournaments-text">
-            * ყველა ტურნირზე მოხვედრა შესაძლებელია 0 ლარიდან.
-          </p>
-          <p className="tournaments-text">
-            ტურნირების სრული განრიგის სანახავად გადადი პოკერის ლობიში
-          </p>
+          {props.isMobile ? null : (
+            <>
+              <p className="tournaments-text">
+                * ყველა ტურნირზე მოხვედრა შესაძლებელია 0 ლარიდან.
+              </p>
+              <p className="tournaments-text">
+                ტურნირების სრული განრიგის სანახავად გადადი პოკერის ლობიში
+              </p>
+            </>
+          )}
+
           <button className="tournaments-btn">პოკერის ლობი</button>
           <img
             className="card-banner-left"
-            src={cardBannerLeft}
+            src={props.isMobile ? cardBannerLeftSm : cardBannerLeft}
             alt="cards-icon"
           />
           <img
             className="card-banner-right"
-            src={cardBannerRight}
+            src={props.isMobile ? cardBannerRightSm : cardBannerRight}
             alt="cards-icon"
           />
         </div>

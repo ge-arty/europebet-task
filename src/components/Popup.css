@@ -83,3 +83,46 @@
   cursor: pointer;
   border: none;
 }
+.mobile-menu {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+.mobile-menu img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.mobile-menu div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-menu div button {
+  width: 7.2rem;
+  height: 3.2rem;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mobile-menu-btnup {
+  background-color: #1c1d1e;
+}
+.mobile-menu-btnin {
+  background-color: #f05a22;
+}
+
+@media (max-width: 800px) {
+  .popup-container {
+    /* padding: 0 2rem; */
+  }
+  .mobile-menu {
+    display: flex;
+  }
+  .fixed-menu-box {
+    display: none;
+  }
+}

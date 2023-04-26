@@ -2,13 +2,18 @@ import React from "react";
 import "./Header.css";
 import { NavLink, useLocation } from "react-router-dom";
 
-export default function Header() {
+export default function Header(props) {
+  console.log(props.isMobile);
   const location = useLocation();
   return (
     <div className="header-container">
       <div className="header-banner"></div>
       <div className="header-title">
-        <h2>მოიპოვე მრავალფეროვანი პრიზები და 10 საგზურიდან ერთ-ერთი</h2>
+        <h2>
+          {props.isMobile
+            ? "მოიპოვე 10 საგზურიდან ერთ-ერთი"
+            : "მოიპოვე მრავალფეროვანი პრიზები და 10 საგზურიდან ერთ-ერთი"}
+        </h2>
         <p>მოხვდი პოკერის ფესტივალზე მალტაში</p>
       </div>
       <nav className="header-navigation">

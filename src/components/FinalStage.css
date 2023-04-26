@@ -69,6 +69,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .finalstage-card:last-child {
   padding-bottom: 6.5rem;
@@ -170,6 +171,8 @@
 .finalstage-travel-cards div {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1rem;
 }
 .finalstage-travel-cards-left {
   width: 100%;
@@ -349,4 +352,22 @@
 }
 .mistery-key-list-text {
   font-size: 1.4rem;
+}
+
+@media (max-width: 800px) {
+  .finalstage-container {
+    padding: 0 1.6rem;
+  }
+  .finalstage-cards {
+    justify-content: center;
+  }
+  .finalstage-travel-header h3 {
+    text-align: center;
+  }
+  .mistery-key-header img {
+    width: 100%;
+  }
+  .mistery-key-list-container ul li:first-child {
+    margin-top: 35rem;
+  }
 }

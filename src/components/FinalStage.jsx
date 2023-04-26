@@ -8,7 +8,7 @@ import finalPlaneIcon from "../assets/poker-item-1-ticket-icon.png";
 import finalDoublePlaneIcon from "../assets/poker-item-2-ticket-icon.png";
 import misteryKeyIcon from "../assets/mistery-key-icon.png";
 
-export default function FinalStage() {
+export default function FinalStage(props) {
   return (
     <div className="finalstage-container">
       <div className="finalstage-top-content-wrapper">
@@ -178,10 +178,12 @@ export default function FinalStage() {
           <img src={misteryKeyIcon} alt="mistery-key-icon" />
         </div>
         <div className="mistery-key-list-container">
-          <p className="mistery-key-text">
-            მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში
-            მიიღებენ საიდუმლო გასაღებს
-          </p>
+          {props.isMobile ? null : (
+            <p className="mistery-key-text">
+              მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში
+              მიიღებენ საიდუმლო გასაღებს
+            </p>
+          )}
           <ul>
             <li>
               <span className="mistery-key-list-number">1</span>

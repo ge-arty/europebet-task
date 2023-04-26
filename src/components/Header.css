@@ -33,6 +33,7 @@
   border-radius: 12px;
 }
 .header-navigation-elem {
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,4 +62,32 @@
 }
 .active h6 {
   font-size: 1.8rem;
+}
+@media (max-width: 800px) {
+  .header-banner {
+    padding: 0;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+@media (max-width: 500px) {
+  .header-banner {
+    padding: 0;
+    background-size: auto 47%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .header-title {
+    padding-top: 0;
+  }
+  .header-navigation {
+    padding: 0 1.6rem;
+  }
+  .header-navigation-elem {
+    padding: 0;
+  }
+  .active {
+    padding: 2.5rem 0;
+  }
 }

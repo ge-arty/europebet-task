@@ -213,6 +213,7 @@ ul {
   border-radius: 76px;
   padding: 1.4rem 3.7rem 1.4rem 2rem;
   background-color: #1e2122;
+  width: 100%;
 }
 .list li:last-child {
   margin-bottom: 1rem;
@@ -485,4 +486,54 @@ ul {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media (max-width: 800px) {
+  .springames {
+    /* padding: 0 1.6rem; */
+  }
+  .springames-container {
+    padding: 0 1.6rem;
+  }
+  .list {
+    padding: 0 1rem;
+  }
+  .list-prize {
+    padding: 0;
+  }
+  .list-prize-category {
+    width: 25%;
+  }
+  .springames-prizes {
+    padding: 0;
+  }
+  .springames-prizes ul li p {
+    width: 70%;
+    font-size: 1.3rem;
+  }
+  .more-info-container {
+    padding: 0 1.6rem;
+  }
+  .tournaments-title {
+    text-align: center;
+  }
+  .springames-top {
+    padding: 2rem 1rem;
+  }
+  .springames-top img {
+    right: 10%;
+  }
+  .daily-tournament-title {
+    text-align: center;
+  }
+  .springames-list-params {
+    padding-right: 5.5rem;
+  }
+  .daily-tournament-little-banners {
+    padding: 0;
+    row-gap: 1.5rem;
+  }
+  .daily-tournaments-container:last-child p {
+    width: 80%;
+  }
 }
