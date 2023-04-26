@@ -368,9 +368,15 @@
     width: 100%;
   }
   .mistery-key-list-container ul li:first-child {
-    margin-top: 35rem;
+    margin-top: 38rem;
+  }
+  .mistery-key-list-container {
+    background-color: #2c3234;
   }
   .mistery-key-list-container ul {
     margin: 0;
+  }
+  .mistery-key-list-text {
+    width: 70%;
   }
 }
