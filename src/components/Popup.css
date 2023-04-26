@@ -44,6 +44,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: 80vh;
   z-index: 10;
 }
 .fixed-menu-text {
@@ -115,7 +116,7 @@
   background-color: #f05a22;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .mobile-menu {
     display: flex;
   }
@@ -123,6 +124,6 @@
     display: none;
   }
   .start-game-container {
-    position: fixed;
+    position: sticky;
   }
 }

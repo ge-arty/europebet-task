@@ -354,7 +354,7 @@
   font-size: 1.4rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .finalstage-container {
     padding: 0 1.6rem;
   }
@@ -369,5 +369,8 @@
   }
   .mistery-key-list-container ul li:first-child {
     margin-top: 35rem;
+  }
+  .mistery-key-list-container ul {
+    margin: 0;
   }
 }

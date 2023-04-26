@@ -71,7 +71,7 @@
     background-position: right center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .header-banner {
     padding: 0;
     background-size: auto 47%;

@@ -488,10 +488,7 @@ ul {
   right: 0;
 }
 
-@media (max-width: 800px) {
-  .springames {
-    /* padding: 0 1.6rem; */
-  }
+@media (max-width: 700px) {
   .springames-container {
     padding: 0 1.6rem;
   }
@@ -535,5 +532,14 @@ ul {
   }
   .daily-tournaments-container:last-child p {
     width: 80%;
+  }
+  .tournaments-times-box span {
+    width: 70%;
+  }
+  .springames-title {
+    text-align: center;
+  }
+  .daily-tournaments-container {
+    padding: 0 0.5rem;
   }
 }
