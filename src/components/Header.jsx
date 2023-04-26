@@ -3,11 +3,14 @@ import "./Header.css";
 import { NavLink, useLocation } from "react-router-dom";
 
 export default function Header(props) {
-  console.log(props.isMobile);
   const location = useLocation();
   return (
     <div className="header-container">
       <div className="header-banner"></div>
+      <div className="mobile-banner-text">
+        <h6>სლოტები</h6>
+        <span>10 იანვარი - 12 მარტი</span>
+      </div>
       <div className="header-title">
         <h2>
           {props.isMobile

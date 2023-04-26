@@ -74,9 +74,10 @@
 @media (max-width: 700px) {
   .header-banner {
     padding: 0;
-    background-size: auto 47%;
+    background-size: auto 20rem;
     background-repeat: no-repeat;
     background-position: right center;
+    height: 20rem;
   }
   .header-title {
     padding-top: 0;
@@ -86,8 +87,42 @@
   }
   .header-navigation-elem {
     padding: 0;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .header-navigation-elem h6 {
+    text-align: center;
+    width: 100%;
   }
   .active {
     padding: 2.5rem 0;
+  }
+  .mobile-banner-text {
+    color: #fff;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    padding-left: 4.3rem;
+  }
+  .mobile-banner-text h6 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: rgba(225, 225, 225, 0.15);
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+  }
+  .mobile-banner-text span {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
