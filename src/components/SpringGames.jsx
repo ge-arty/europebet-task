@@ -59,8 +59,12 @@ export default function SpringGames(props) {
             </h3>
           </div>
           <div className="springames-top">
-            <h4 className="springames-subtitle">ქულების დაგროვების მექანიკა</h4>
-            <img src={mechanicIcon} alt="icon" />
+            <div>
+              <h4 className="springames-subtitle">
+                ქულების დაგროვების მექანიკა
+              </h4>
+              <img src={mechanicIcon} alt="icon" />
+            </div>
           </div>
           <div className="springames-list-container">
             <div className="springames-list-params">

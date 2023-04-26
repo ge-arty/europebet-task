@@ -135,11 +135,14 @@
   justify-content: center;
   align-items: center;
   padding: 2.3rem 27.3rem;
+}
+.springames-top div {
   position: relative;
 }
 .springames-top img {
   position: absolute;
-  right: 35%;
+  top: 0;
+  right: 0;
 }
 .springames-subtitle {
   color: #ffffff;
@@ -519,9 +522,7 @@ ul {
   .springames-top {
     padding: 2rem 1rem;
   }
-  .springames-top img {
-    right: 30%;
-  }
+
   .daily-tournament-title {
     text-align: center;
   }
@@ -543,10 +544,5 @@ ul {
   }
   .daily-tournaments-container {
     padding: 0 0.5rem;
-  }
-}
-@media (max-width: 380px) {
-  .springames-top img {
-    right: 10%;
   }
 }
