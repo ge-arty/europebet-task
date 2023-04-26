@@ -37,7 +37,7 @@
   max-width: 66.4rem;
   color: #fff;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 400;
   margin: 0 auto;
   margin-bottom: 1.4rem;
   text-align: center;
@@ -48,6 +48,7 @@
   border-radius: 12px;
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
 .finalstage-header-date-box div {
   width: 0.4rem;

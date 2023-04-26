@@ -117,6 +117,9 @@
 }
 
 @media (max-width: 700px) {
+  .popup-container {
+    padding-bottom: 8rem;
+  }
   .mobile-menu {
     display: flex;
   }

@@ -470,6 +470,7 @@ ul {
   font-size: 1.8rem;
   width: 75%;
   margin: 0 auto;
+  font-weight: bold;
 }
 .more-info-sub-text {
   font-size: 1.5rem;
@@ -513,12 +514,13 @@ ul {
   }
   .tournaments-title {
     text-align: center;
+    width: 70%;
   }
   .springames-top {
     padding: 2rem 1rem;
   }
   .springames-top img {
-    right: 10%;
+    right: 30%;
   }
   .daily-tournament-title {
     text-align: center;
@@ -541,5 +543,10 @@ ul {
   }
   .daily-tournaments-container {
     padding: 0 0.5rem;
+  }
+}
+@media (max-width: 380px) {
+  .springames-top img {
+    right: 10%;
   }
 }

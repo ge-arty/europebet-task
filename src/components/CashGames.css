@@ -220,6 +220,7 @@ ul {
 }
 .more-info-main-text {
   font-size: 1.8rem;
+  font-weight: bold;
   width: 75%;
   margin: 0 auto;
 }
